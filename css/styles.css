@@ -54,9 +54,7 @@ main{
 .img_2{
     width: 3vw;
     height: 3vw;
-    padding-left: 1vw;
-    padding-top: 3vw;
-    padding-bottom: 1vw;
+    padding: 2vw 1vw;
 }
 
 .img_1{
