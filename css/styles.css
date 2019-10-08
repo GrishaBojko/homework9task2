@@ -51,10 +51,13 @@ main{
 
 
 
+.img-2_container{
+    padding: 1vw;
+}
 .img_2{
     width: 3vw;
     height: 3vw;
-    padding: 2vw 1vw;
+    
 }
 
 .img_1{
