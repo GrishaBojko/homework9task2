@@ -49,15 +49,14 @@ main{
     font-family: 'Poppins', sans-serif;
 }
 
-
-
 .img-2_container{
-    padding: 1vw;
+    padding-top: 2vw;
+    padding-left: 1vw;
+    padding-bottom: 1vw;
 }
 .img_2{
     width: 3vw;
     height: 3vw;
-    
 }
 
 .img_1{
