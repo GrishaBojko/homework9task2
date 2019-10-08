@@ -29,7 +29,7 @@ main{
     flex-direction: column;
     justify-content: flex-end;
     margin: 0.5vw;
-    box-sizing: border-box;
+    
 }
 
 .box1 p{
@@ -42,22 +42,21 @@ main{
     font-weight: 600;
 }
 
-.box1 h2{
+.logo_date1{
     color: lightgrey;
     padding-left: 1vw;
     font-size: 0.9vw;
+    font-family: 'Poppins', sans-serif;
 }
 
 .img-2_container{
     display: flex;
-    box-sizing: border-box;
+    
 }
 
 .img_2{
-    
     width: 20%;
     
-    box-sizing: border-box;
 }
 
 .img_1{
@@ -70,13 +69,13 @@ main{
    margin: 0.5vw;
    display: flex;
    flex-direction: column;
-   box-sizing: border-box;
+   
 }
 .box{
     flex-basis: 14.5vw;
     background: white;
     margin: 0.5vw;
-    box-sizing: border-box;
+   
 }
 
 .box p , .box2 p{ 
@@ -86,7 +85,7 @@ main{
    font-weight: 900;
 }
 
-.box h2, .box2 h2{
+.logo_date2{
     font-size:0.9vw;
     padding-left: 1vw;
     padding-top: 1vw;
