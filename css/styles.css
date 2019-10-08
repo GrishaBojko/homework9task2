@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(226, 231, 236);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.section-container{
+    width: 60vw;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.box1{
+    flex-basis: 30vw;
+    background-image: url(../img/coffee-cup.png);  
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0.5vw;
+    box-sizing: border-box;
+}
+
+.box1 p{
+    color: white;
+    font-size: 2vw;
+    padding-left: 1vw;
+    padding-bottom: 2vw;
+    width: 25vw;
+    font-family: 'Muli', sans-serif;
+    font-weight: 600;
+}
+
+.box1 h2{
+    color: lightgrey;
+    padding-left: 1vw;
+    font-size: 0.9vw;
+}
+
+.img-2_container{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.img_2{
+    padding-top: 3vw;
+    width: 20%;
+    padding-left: 1vw;
+    padding-bottom: 1vw;
+    box-sizing: border-box;
+}
+
+.img_1{
+    width: 100%;
+}
+
+.box2{
+  flex-basis:14.5vw;
+   background: white;
+   margin: 0.5vw;
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+}
+.box{
+    flex-basis: 14.5vw;
+    background: white;
+    margin: 0.5vw;
+    box-sizing: border-box;
+}
+
+.box p , .box2 p{ 
+   font-size: 1.5vw;
+   padding-left: 1vw;
+   font-family: 'Muli', sans-serif;
+   font-weight: 900;
+}
+
+.box h2, .box2 h2{
+    font-size:0.9vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    font-family: 'Poppins', sans-serif;
+    color: lightgrey;
+}
+ 
